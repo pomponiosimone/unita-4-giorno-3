@@ -25,10 +25,10 @@ public class Sim {
     }
 
     public void stampaSim() {
-        System.out.println("Dati Sim:  " + phoneNumber + " Saldo " + balance);
+        System.out.println("Dati Sim:" + phoneNumber + " Saldo " + balance);
         System.out.println("Lista chiamate:");
         for (Call call : callHistory) {
-            System.out.println("Numeri chiamati: " + call.getPhoneNumber() + " for " + call.getMinutes() + " minutes.");
+            System.out.println("Numeri chiamati: " + call.getPhoneNumber() + " per " + call.getMinutes() + " minuti.");
         }
     }
 
